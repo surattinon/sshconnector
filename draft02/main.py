@@ -92,9 +92,9 @@ def install_putty_gui():
 
 def main():
     global host, username, password, port
-    host = "ddns.ofbas.com"
-    username = "lab"
-    port = 2207
+    host = ""
+    username = ""
+    port = 22 
 
     install_putty_gui()
 
